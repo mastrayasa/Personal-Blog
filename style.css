@@ -1,0 +1,130 @@
+/* BY Mastrayasa */
+body{
+	background-image:url(gambar/bg5.png); 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	color:#666666;
+}
+.clearfix{
+	clear:both;
+}
+a{
+	color:#666666;
+}
+table{
+	font-size:12px;
+}
+.wrap{
+	width:600px;
+	margin:0 auto;
+	background:#fff;
+}
+.header{
+	padding:30px 20px;
+	background-color:#f68e1f;
+	color:#fff;
+	font-weight:normal;
+	/* background-image:url(gambar/header.jpg); */
+}
+.menu{
+	height:30px;
+	background-color:#9c560c;
+	/* background-image:url(gambar/menu.jpg); */
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none 
+}
+.menu ul > li { 
+	float: left; 
+	margin: 0 0 0 1px;
+	padding: 0; 
+	color: #fff; 
+	cursor: pointer
+}
+.menu ul > li a{
+	padding: 8px 14px 8px 14px; 
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+.menu ul li a:hover { 
+	background: #d6760f; 
+}
+.main{
+	background-color:#fff; 
+	background-image:url(gambar/bg-main.jpg); 
+	background-repeat:repeat-x;
+	padding-bottom:20px;
+}
+.main .sidebar{
+	width:180px;
+	float:left;
+	padding:0 10px;
+}
+.main .sidebar h2{
+	font-weight:normal;
+	font-size:14px;
+	background:#f68e1f;
+	color:#fff;
+	padding:5px 10px;
+}
+.main .sidebar ul{
+	padding:0 10px;
+}
+.main .sidebar ul li{
+	padding:4px 0;
+}
+.main .content{
+	width:380px;
+	padding:10px;
+	float:left;
+}
+
+.footer{
+	padding:20px;
+	text-align:center;
+	background:#f0bd87;
+	border-top:4px solid #e59b4c
+}
+
+table {
+	font-size: 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ddd;
+	border-collapse: collapse;
+	margin: 10px 0px;
+	width:100%;
+}
+table th{
+	color: #514e4e;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+
+}
+table td{
+	padding: 0.2em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-collapse: collapse;
+	border-top:1px solid #ddd;
+}
+
+table.tampil tr:hover{
+	background-color:#f9f9f9;
+}
+/* FOTO */
+.tempat-foto img{
+	height:58px; 
+	width:58px;
+}
